@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+html {
+  background: #98bcf4;
+  font-family: "Patrick Hand", cursive;
+  background-image: url("images/2.png");
+  background-position: center center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  letter-spacing: 5px;
+  font-size: 60px;
+  text-align: center;
+  color: chartreuse;
+  border-radius: 10px;
+  margin-top: 0px;
+
+  border: solid chartreuse 4px;
+  background-color: black;
+  box-shadow: 10px 5px 5px rgba(24, 235, 5, 0.445);
+}
+
+span {
+  color: crimson;
+  font-size: 80px;
+}
+
+.time {
+  margin-right: 80px;
+  background-color: black;
+  color: chartreuse;
+  border-radius: 10px;
+  padding: 0px 50px 0px 50px;
+  border: solid chartreuse 4px;
+  box-shadow: 10px 5px 5px rgba(24, 235, 5, 0.445);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#score {
+  font-size: 28px;
+  color: rgb(0, 204, 255);
+  padding-left: 15px;
+  font-family: Cambria;
+}
+#time-left {
+  font-size: 35px;
+  font-family: Cambria;
+  color: rgb(250, 3, 3);
+  padding: 15px;
+}
+.score {
+  margin-left: 80px;
+
+  background-color: black;
+  color: chartreuse;
+  border-radius: 10px;
+  padding: 0px 50px 0px 50px;
+  border: solid chartreuse 4px;
+  box-shadow: 10px 5px 5px rgba(24, 235, 5, 0.445);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  margin: 10px 00px 20px 20px;
+  justify-content: center;
+  display: flex;
+}
+.grid {
+  width: 730px;
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: solid black 15px;
+  border-radius: 15px;
+  margin: 5px;
+  box-shadow: 10px 5px 5px rgba(24, 235, 5, 0.445);
+  background-image: url("images/3.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+.square:hover {
+  border: solid greenyellow 15px;
+}
+
+.mole {
+  background-image: url("images/1.gif");
+  background-position: center;
+  background-size: 100%;
+}
+
+#start{
+    width:150px;
+    height: 50px;
+    border: solid rgb(255, 3, 3) 5px;
+    border-radius: 15px; 
+    box-shadow: 10px 5px 5px rgb(2, 2, 2);
+    background-color: yellowgreen;
+    color: rgb(24, 22, 22);
+    font-size: larger;
+   font-family: fantasy;
+}
+
+
+.footer {
+    background-color: rgba(17, 17, 17, 0.63);
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+    margin-top: 400px;
+    margin-bottom: 15px;
+  }
+  
+  .link {
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 8px;
+  }
+  
+  .link:hover {
+    border: solid greenyellow;
+    border-width: 5px;
+    background-color: white;
+  }
+  .git {
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 8px;
+  }
+  
+  .git:hover {
+    border: solid greenyellow;
+    border-width: 5px;
+    background-color: white;
+  }
+  
